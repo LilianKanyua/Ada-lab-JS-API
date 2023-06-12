@@ -24,6 +24,6 @@ const displayUsers=async()=>{
        div.appendChild(names);
        div.appendChild(username);
        userContainer.appendChild(div)
-    })
-}
-displayUsers()
+    });
+};
+displayUsers();
